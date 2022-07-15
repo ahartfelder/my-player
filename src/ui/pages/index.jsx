@@ -18,7 +18,6 @@ export default function Index() {
             <AudioPlayer 
                 music={selectedMusic} 
                 onTimeChange={setTime}
-                onComplete={() => console.log('finished')} 
             />
         </div>
     );

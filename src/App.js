@@ -7,6 +7,7 @@ export const AppContext = createContext({});
 
 function App() {
 	const useAppValues = useApp();
+	
     return (
 		<>
 			<header className={styles['header']}>
